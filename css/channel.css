@@ -1,0 +1,78 @@
+			a:link {
+				text-decoration: none;
+			}
+			a:visited {
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+			a:active {
+				text-decoration: none;
+			}
+
+			.div_responsive_vdo_preview
+			{
+				max-width: 900px;
+				min-height: 100%;
+				margin-top: 80px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 72px;
+				text-align: initial;
+				background-color : white;
+				/*margin: 0 auto;
+				border: 0px solid red;
+				display : block;
+				padding-top : 12px;
+				padding-right : 31px;
+				padding-bottom : 31px;
+				padding-left : 31px;*/
+			}
+
+			.youtubeblock {
+				float: left;
+				margin: 2px;
+				padding: 4px;
+				width: 290px;
+				height: 248px;
+				overflow-x: hidden;
+				overflow-y: hidden;
+				border: 0px solid white;
+			}
+
+			.youtubepreview {
+				cursor: pointer;
+				margin-top: 8px;
+				margin-right: auto;
+				margin-bottom: 8px;
+				margin-left: 23px;
+				z-index: 32;
+			}
+
+			.youtubesmalldescription {
+				font-size : 12px;
+				overflow-x: hidden;
+				margin-top: 8px;
+				margin-bottom: 8px;
+				margin-left: 27px;
+			}
+
+			.new_lefttopred_div {
+				position: relative;
+				left: 17px;
+				top: -152px;
+				width: 0px;
+				height: 0px;
+				overflow: visible;
+				z-index: 63;
+			}
+
+			.new_lefttopred_img {
+				width: 60px;
+				height: 60px;
+			}
+.bghide{
+    background:white;
+}
+

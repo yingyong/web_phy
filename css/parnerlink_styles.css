@@ -1,0 +1,727 @@
+
+@media only screen and (min-width:1024px) {
+.Parnerlink {
+	width: 100%;
+	height: 70px;
+	background-color:#E1DEDC;
+	list-style-type: none;
+	position:relative;
+	
+}
+.Parnerlink > ul {
+	width: 100%;
+	height: 70px;
+    list-style-type: none;
+	position:relative;
+    
+}
+
+.Parnerlink > ul li {
+	width: 100%;
+	height: 70px;
+	list-style-type: none;
+	position:relative;
+}
+.Parnerlink > ul li > a.boxone {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url(../images/PartnerLink/Link.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxtwo {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 10%;
+	background-image:url(../images/PartnerLink/idealeverywhere.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxthree {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 20%;
+	background-image:url(../images/PartnerLink/LogoPrivate.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfour {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 30%;
+	background-image:url(../images/PartnerLink/LogoGuru.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfive {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 40%;
+	background-image:url(../images/PartnerLink/LogoChinese.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxsix {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 50%;
+	background-image:url(../images/PartnerLink/idealEnglicious.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxseven {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 60%;
+	background-repeat:no-repeat;
+	background-size: 55% 65%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxeight {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 70%;
+	background-repeat:no-repeat;
+	background-size: 55% 65%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxnine {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 80%;
+	background-repeat:no-repeat;
+	background-size: 55% 65%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxten {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 90%;
+	background-repeat:no-repeat;
+	background-size: 55% 65%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+.Parnerlink {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+	background-color:#E1DEDC;
+	list-style-type: none;
+	position:relative;
+	
+}
+.Parnerlink > ul {
+	width: 100%;
+	height: 70px;
+    list-style-type: none;
+	position:relative;
+    
+}
+
+.Parnerlink > ul li {
+	width: 100%;
+	height: 70px;
+	list-style-type: none;
+	position:relative;
+}
+.Parnerlink > ul li > a.boxone {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url(../images/PartnerLink/Link.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxtwo {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 10%;
+	background-image:url(../images/PartnerLink/idealeverywhere.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxthree {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 20%;
+	background-image:url(../images/PartnerLink/LogoPrivate.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfour {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 30%;
+	background-image:url(../images/PartnerLink/LogoGuru.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfive {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 40%;
+	background-image:url(../images/PartnerLink/LogoChinese.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxsix {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 50%;
+	background-image:url(../images/PartnerLink/idealEnglicious.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxseven {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 60%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxeight {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 70%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxnine {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 80%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxten {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 90%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+}
+@media only screen and (min-width:1281px) and (max-width:1395px) {
+.Parnerlink {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+	background-color:#E1DEDC;
+	list-style-type: none;
+	position:relative;
+	
+}
+.Parnerlink > ul {
+	width: 100%;
+	height: 70px;
+    list-style-type: none;
+	position:relative;
+    
+}
+
+.Parnerlink > ul li {
+	width: 100%;
+	height: 70px;
+	list-style-type: none;
+	position:relative;
+}
+.Parnerlink > ul li > a.boxone {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url(../images/PartnerLink/Link.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxtwo {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 10%;
+	background-image:url(../images/PartnerLink/idealeverywhere.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxthree {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 20%;
+	background-image:url(../images/PartnerLink/LogoPrivate.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfour {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 30%;
+	background-image:url(../images/PartnerLink/LogoGuru.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfive {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 40%;
+	background-image:url(../images/PartnerLink/LogoChinese.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxsix {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 50%;
+	background-image:url(../images/PartnerLink/idealEnglicious.png);
+	background-repeat:no-repeat;
+	background-size: 75% 75%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxseven {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 60%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxeight {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 70%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxnine {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 80%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxten {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 90%;
+	background-repeat:no-repeat;
+	background-size: 45% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+}
+@media only screen and (min-width:1396px) {
+.Parnerlink {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+	background-color:#E1DEDC;
+	list-style-type: none;
+	position:relative;
+	
+}
+.Parnerlink > ul {
+	width: 100%;
+	height: 70px;
+    list-style-type: none;
+	position:relative;
+    
+}
+
+.Parnerlink > ul li {
+	width: 100%;
+	height: 70px;
+	list-style-type: none;
+	position:relative;
+}
+.Parnerlink > ul li > a.boxone {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url(../images/PartnerLink/Link.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxtwo {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 10%;
+	background-image:url(../images/PartnerLink/idealeverywhere.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxthree {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 20%;
+	background-image:url(../images/PartnerLink/LogoPrivate.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfour {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 30%;
+	background-image:url(../images/PartnerLink/LogoGuru.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxfive {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 40%;
+	background-image:url(../images/PartnerLink/LogoChinese.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxsix {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 50%;
+	background-image:url(../images/PartnerLink/idealEnglicious.png);
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxseven {
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+	margin-left: 60%;
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxeight {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 70%;
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxnine {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 80%;
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 3px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+.Parnerlink > ul li > a.boxten {
+	width: 10%;
+	height: 99%;
+	margin-top: 0px;
+	margin-left: 90%;
+	background-repeat:no-repeat;
+	background-size: 80% 80%;
+	background-position:center;
+	border:solid #fff;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position:absolute;
+}
+}

@@ -1,0 +1,340 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2015, 3:38:09 PM
+    Author     : user
+*/
+
+#fb{
+  /* content: attr(data-width px)  500;
+  	width:800px;*/
+}
+
+.head_line{
+    background-color:orange;
+    height:5px;
+    width: 100%; 
+    margin: 0px;
+
+}
+.social{
+	background: #E1DEDC;
+	width: 1024px;
+	  height: 700px;
+	z-index:0;    
+	display:inline-block; 
+	*display:inline;
+	
+	}
+	
+.social_tabs {
+    display:inline-table;
+    padding:30px 10px 20px 50px;
+}
+.social_list{
+ 
+  color: #000000;
+ 
+	
+}
+
+.tab_container{
+     transition:padding-top 0.5s;
+     display:inline-flex; 
+     position:relative;
+	 padding-top: 40px;
+}
+.social_list:hover {
+    width: 350px;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+
+.tab-links:after {
+  display:block;
+  clear:both;      
+}
+
+.tab-links li{
+  margin:0px;
+  float:left;
+  list-style:none;
+}
+
+.tab-links a { 
+  padding:10px 0px;
+  display:inline-block;
+  border-radius:10px 10px 0px 0px;
+  font-size:14px;
+  font-weight:600;
+  color:white;
+  transition:all linear 0.15s;
+  width:120px;
+  height:20px;
+  text-align:center;
+  font-family: 'ThaiSansNeue';
+  text-decoration: none;
+  margin:0px 0px -1px 0px;
+  opacity: 0.3;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.facebook{
+     background-color:  #2C58AD;
+}
+.twiter{
+    background-color: #49A4BF;
+}
+.instagram{
+    background-color:  #A2755A;
+}
+.youtube{
+    background-color: #D01B1F
+}
+
+.tab-links a:hover {
+  text-decoration:none;
+  font-weight: 900;
+  opacity: 1;
+}
+
+li.active a, li.active a:hover {
+  color: white;
+  font-weight: bold; 
+  opacity: 1;
+  border:1px;
+  border-color: #656565;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+  padding:15px;
+  border-radius:3px;
+  box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+  background:#fff;
+  font-size:20px;
+}
+
+.tab{
+  height:450px;
+  border: 1px solid  #bebebe;
+  border-top:0px;
+  background-color:white;
+  display:none;
+/*  width: 600px;*/
+  
+}
+
+.tab.active {
+  display:block;
+  height:450px;
+  background-color:white;
+  border: 1px solid  #bebebe;
+ /* width: 600px;*/
+
+}
+
+.tab-line{
+  background-color:#2C58AD;
+  height:5px;
+  margin: 0px;
+  z-index :1;
+  float:left;
+  width:600px;
+}
+
+.tab_header{
+    height:30px; 
+    background-color:#edeff4; 
+    color: #000000;
+    padding:0px 5px 0px 5px;
+    border: 1px solid  #bebebe;
+    border-top:0px;
+    margin:50px 0px 0px 0px;
+    font-size:14px;
+    font-family: Arial;
+	text-align:left;
+}
+
+.social_list a{
+  text-decoration: none;
+  color:#7d7e7d;           
+}
+
+.social_list a:hover {
+  color:#F60;
+}
+
+
+.social_link{
+  padding:20px 100px ;
+  font-size:14px;
+  height:104px;
+  font-size:11px;
+  //color:#7d7e7d;
+}
+
+
+
+.socialtype{
+  font-size:22px;
+  font-weight: 600;
+  padding:0px 0px;
+  color:#000;
+  float:left;
+}
+
+
+.social_logo{
+  vertical-align: middle;
+
+}
+.twitter-timeline{
+  padding:0px 15px 0px;
+  height:420px;
+}
+
+.instagram_view{
+  border:none; 
+  overflow:hidden; 
+  width:860px; 
+  height: 430px;
+  padding:10px;
+}
+
+@media only screen and (max-width: 319px) {
+    // screen width less 319px
+         .social{display:none;}
+    /*
+    	ul .social_tabs {
+		float: none;
+		text-align: center;
+		margin-bottom:30px;
+                margin:30px 0 10px;
+	}
+
+	ul .social_tabs li {
+		display: inline-block;
+	}
+    	
+	ul .social_tabs{
+
+	}*/
+}
+
+@media only screen and (max-width: 767px) {
+   // screen width less 767px  
+   
+	ul.social_tabs li a {
+		margin: 0 10px;
+	}
+         .social{display:none;}
+    
+}
+@media only screen and(min-width: 768px ) and (max-width: 1023px){
+    // screen width  768px to 1023px
+    
+
+	ul.social_tabs li {
+		display: inline-block;
+	}
+    
+}
+@media only screen and (max-width: 1395px) {
+ 
+}
+@media only screen and (min-widht: 1024px) and (max-width: 1279px ){
+    // screen width 1024px to 1279px
+
+            
+            .fb-like-box[data-widht:825]{
+                width:590px;
+            }
+            .fb_iframe_widget{width:590px;}
+    
+}
+@media only screen and (min-widht: 1280px) and(max-width: 1395px ){
+    // screen width 1024px to 1279px
+
+           
+
+    .fb_iframe_widget{width:845px;}
+}
+
+@media only screen and (max-width: 1023px) {
+    // screen widht less 1023px
+	
+	ul.social_tabs li a {
+    border: 1px solid #efefef;
+		
+	
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+	
+	ul.social_tabs li.active {
+		
+	}
+    
+	#header-social {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1279px) {
+    // screen width less 1279px
+
+        .tab div[data-width='900']{
+            width: 900px ;
+        }
+        .social{display:block;}
+      
+}
+@media Only screen and(min-width:1024px){
+       
+        .fb-like-box [data-width:769px]{       
+            width:769px;
+        }
+    
+}
+@media only screen and (min-width: 1280px) {
+    // screen widht over 1280px
+      
+
+       
+        .fb-like-box [data-width:825px]{       
+            width:825px;
+        }
+}
+
+.tab1{
+	width:600px;
+	
+}
+
+#social_list {
+	width:400px; 
+
+	font-size: 12px;
+}
+.social_img_icon {
+	float:left;
+	width:100px;
+	
+}
+.social_link_a{
+	float:left;
+	width:300px; 
+	height: 75px; 
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+

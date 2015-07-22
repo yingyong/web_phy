@@ -1,0 +1,540 @@
+@media only screen and (max-width: 1024px) {
+footer {
+	max-width: 1024px ;
+	height: 300px;
+    background-image: url("../images/footer/BGFooter.png");
+	background-size: auto 100%;
+	background-repeat:repeat-x;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	position:relative;
+}
+footer .splitter {
+	width: 400px;
+	height:70px;
+	margin-top: 0px;
+	right: 10px;
+    background-image: url("../images/footer/RedBoxFooter.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 20;
+	position:absolute;
+}
+.splitter >ul {
+    list-style-type: none;
+	margin-top: 5%;
+	margin-left: 7%;
+    text-align: justify;
+	position:relative;
+}
+.splitter > ul li {
+    display: inline;
+}
+.splitter a.fix {
+	padding-right: 10px;
+	font-size:14px;
+	font-weight:bold;
+    color: #FFFFFF;
+}
+.splitter a.last {
+	padding-right: 20px;
+	font-size: 15px;
+    color: #FFFFFF;
+	border:solid #000;
+	border-right-width: 0px;
+    border-left-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.splitter a:hover {
+    color: #000;
+	text-decoration:none;  
+}
+
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 100%;
+    position: relative;
+	
+}
+
+footer > ul li {
+    float: left;
+    padding: 1px 1px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+    padding-left: 0;
+	
+}
+footer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+footer > ul li .text {
+	margin-top: 80px;
+	margin-left: 30px;
+    position: relative;
+    text-align: justify;
+}
+.text h1 {
+	letter-spacing:2px;
+	font-family: 'ThaiSansNeue';
+    color:  #e0e0e0;
+    font-size: 20px;
+	font-weight:bold;
+}
+.text a {
+	font-family: 'ThaiSansNeue';
+    color: #c8c8c8;
+	font-size: 14px;
+	line-height: 24px;  
+}
+.text a:hover {
+	color: #F60;
+	font-size: 14px;
+	text-decoration:none;  
+}
+footer > ul li .text2 {
+	height: 180px;
+	margin-top: 70px;
+	right: 45%;
+	position:absolute;
+}
+footer > ul li .text3 {
+	margin-top: 80px;
+    right: 10px;
+    text-align: justify;
+	position:absolute;
+}
+.text3 a {
+	margin-right: 5px;
+    border-bottom: 1px dotted transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.text3 a:hover {
+	color: #F60;
+	
+}
+
+footer > ul li .text4 {
+	font-family: 'ThaiSansNeue';
+	color:  #c8c8c8;
+	text-decoration: none;
+	font-size: 34px;
+	margin-top: 250px;
+    right: 10px;
+    position:absolute;
+}
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+footer {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+    background-image: url("../images/footer/BGFooter.png");
+	background-size: auto 100%;
+	background-repeat:repeat-x;
+	z-index: 10;
+	position:relative;
+}
+footer .splitter {
+	width: 400px;
+	height:70px;
+	margin-top: 0px;
+	right: 10px;
+    background-image: url("../images/footer/RedBoxFooter.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 20;
+	position:absolute;
+}
+.splitter >ul {
+    list-style-type: none;
+	margin-top: 5%;
+	margin-left: 7%;
+    text-align: justify;
+	position:relative;
+}
+.splitter > ul li {
+    display: inline;
+}
+.splitter a.fix {
+	padding-right: 10px;
+	font-size:14px;
+	font-weight:bold;
+    color: #FFFFFF;
+}
+.splitter a.last {
+	padding-right: 20px;
+	font-size: 15px;
+    color: #FFFFFF;
+	border:solid #000;
+	border-right-width: 0px;
+    border-left-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.splitter a:hover {
+    color: #000;
+	text-decoration:none;  
+}
+
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 100%;
+    position: relative;
+	
+}
+
+footer > ul li {
+    float: left;
+    padding: 1px 1px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+    padding-left: 0;
+	
+}
+footer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+footer > ul li .text {
+	margin-top: 80px;
+	margin-left: 30px;
+    position: relative;
+    text-align: justify;
+}
+.text h1 {
+	letter-spacing:2px;
+	font-family: 'ThaiSansNeue';
+    color:  #e0e0e0;
+    font-size: 20px;
+	font-weight:bold;
+}
+.text a {
+	font-family: 'ThaiSansNeue';
+    color: #c8c8c8;
+	font-size: 14px;
+	line-height: 24px;  
+}
+.text a:hover {
+	color: #F60;
+	font-size: 14px;
+	text-decoration:none;  
+}
+footer > ul li .text2 {
+	height: 180px;
+	margin-top: 70px;
+	right: 45%;
+	position:absolute;
+}
+footer > ul li .text3 {
+	margin-top: 80px;
+    right: 10px;
+    text-align: justify;
+	position:absolute;
+}
+.text3 a {
+	margin-right: 5px;
+    border-bottom: 1px dotted transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.text3 a:hover {
+	color: #F60;
+	
+}
+
+footer > ul li .text4 {
+	font-family: 'ThaiSansNeue';
+	color:  #c8c8c8;
+	text-decoration: none;
+	font-size: 34px;
+	margin-top: 250px;
+    right: 10px;
+    position:absolute;
+}
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1395px) {
+footer {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+    background-image: url("../images/footer/BGFooter.png");
+	background-size: auto 100%;
+	background-repeat:repeat-x;
+	z-index: 10;
+	position:relative;
+}
+footer .splitter {
+	width: 400px;
+	height:70px;
+	margin-top: 0px;
+	right: 10px;
+    background-image: url("../images/footer/RedBoxFooter.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 20;
+	position:absolute;
+}
+.splitter >ul {
+    list-style-type: none;
+	margin-top: 5%;
+	margin-left: 7%;
+    text-align: justify;
+	position:relative;
+}
+.splitter > ul li {
+    display: inline;
+}
+.splitter a.fix {
+	padding-right: 10px;
+	font-size:14px;
+	font-weight:bold;
+    color: #FFFFFF;
+}
+.splitter a.last {
+	padding-right: 20px;
+	font-size: 15px;
+    color: #FFFFFF;
+	border:solid #000;
+	border-right-width: 0px;
+    border-left-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.splitter a:hover {
+    color: #000;
+	text-decoration:none;  
+}
+
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 100%;
+    position: relative;
+	
+}
+
+footer > ul li {
+    float: left;
+    padding: 1px 1px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+    padding-left: 0;
+	
+}
+footer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+footer > ul li .text {
+	margin-top: 80px;
+	margin-left: 30px;
+    position: relative;
+    text-align: justify;
+}
+.text h1 {
+	letter-spacing:2px;
+	font-family: 'ThaiSansNeue';
+    color:  #e0e0e0;
+    font-size: 20px;
+	font-weight:bold;
+}
+.text a {
+	font-family: 'ThaiSansNeue';
+    color: #c8c8c8;
+	font-size: 14px;
+	line-height: 24px;  
+}
+.text a:hover {
+	color: #F60;
+	font-size: 14px;
+	text-decoration:none;  
+}
+footer > ul li .text2 {
+	height: 180px;
+	margin-top: 70px;
+	right: 45%;
+	position:absolute;
+}
+footer > ul li .text3 {
+	margin-top: 80px;
+    right: 10px;
+    text-align: justify;
+	position:absolute;
+}
+.text3 a {
+	margin-right: 5px;
+    border-bottom: 1px dotted transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.text3 a:hover {
+	color: #F60;
+	
+}
+
+footer > ul li .text4 {
+	font-family: 'ThaiSansNeue';
+	color:  #c8c8c8;
+	text-decoration: none;
+	font-size: 34px;
+	margin-top: 250px;
+    right: 10px;
+    position:absolute;
+}
+
+}
+@media only screen and (min-width: 1396px) {
+footer {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+    background-image: url("../images/footer/BGFooter.png");
+	background-size: auto 100%;
+	background-repeat:repeat-x;
+	z-index: 10;
+	position:relative;
+}
+footer .splitter {
+	width: 400px;
+	height:70px;
+	margin-top: 0px;
+	right: 10px;
+    background-image: url("../images/footer/RedBoxFooter.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 20;
+	position:absolute;
+}
+.splitter >ul {
+    list-style-type: none;
+	margin-top: 5%;
+	margin-left: 7%;
+    text-align: justify;
+	position:relative;
+}
+.splitter > ul li {
+    display: inline;
+}
+.splitter a.fix {
+	padding-right: 10px;
+	font-size:14px;
+	font-weight:bold;
+    color: #FFFFFF;
+}
+.splitter a.last {
+	padding-right: 20px;
+	font-size: 15px;
+    color: #FFFFFF;
+	border:solid #000;
+	border-right-width: 0px;
+    border-left-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.splitter a:hover {
+    color: #000;
+	text-decoration:none;  
+}
+
+footer > ul {
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 100%;
+    position: relative;
+	
+}
+
+footer > ul li {
+    float: left;
+    padding: 1px 1px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+footer > ul li:first-child {
+    padding-left: 0;
+	
+}
+footer > ul li:nth-child(3) {
+    padding-right: 0;
+}
+footer > ul li .text {
+	margin-top: 80px;
+	margin-left: 30px;
+    position: relative;
+    text-align: justify;
+}
+.text h1 {
+	letter-spacing:2px;
+	font-family: 'ThaiSansNeue';
+    color:  #e0e0e0;
+    font-size: 20px;
+	font-weight:bold;
+}
+.text a {
+	font-family: 'ThaiSansNeue';
+    color: #c8c8c8;
+	font-size: 14px;
+	line-height: 24px;  
+}
+.text a:hover {
+	color: #F60;
+	font-size: 14px;
+	text-decoration:none;  
+}
+footer > ul li .text2 {
+	height: 180px;
+	margin-top: 70px;
+	right: 45%;
+	position:absolute;
+}
+footer > ul li .text3 {
+	margin-top: 80px;
+    right: 10px;
+    text-align: justify;
+	position:absolute;
+}
+.text3 a {
+	margin-right: 5px;
+    border-bottom: 1px dotted transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.text3 a:hover {
+	color: #F60;
+	
+}
+
+footer > ul li .text4 {
+	font-family: 'ThaiSansNeue';
+	color:  #c8c8c8;
+	text-decoration: none;
+	font-size: 34px;
+	margin-top: 250px;
+    right: 10px;
+    position:absolute;
+}
+
+}

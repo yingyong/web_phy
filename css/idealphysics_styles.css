@@ -1,0 +1,470 @@
+	
+@media only screen and (max-width: 1024px) {
+.idealphysics {
+	max-width: 1024px;
+	position:relative;
+	z-index: 0;	
+}
+.idealphysics ul {
+	width: 1024;
+	height: 500px;
+	position:relative;
+	
+}
+.idealphysics ul li {
+	width: 1024px;
+	height: 500px;
+	list-style:none;
+	position:relative;	
+
+}
+.idealphysics ul li > a.timeline {
+	width: 1024px;
+	height: 55%;
+	z-index: 10;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.logo {
+	width: 130px;
+	height: 130px;
+	margin-top: 200px;
+	margin-left: 10%;
+	z-index: 20;
+	position:absolute;
+	
+}
+.idealphysics ul li > .tell {
+	top: 55%;
+	right: 8.5%;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.worlding {
+	width: 420px;
+	height: 15%;
+	margin-top: 280px;
+	left: 300px;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics2
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	position: relative;	
+}
+#panel,#flip
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 690px;
+	top: -10px;
+	font-size:14px;
+	background-color:#ffffff;
+	position: relative;
+}
+#panel
+{
+	color:#000000;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display: none;
+}
+#flip2
+{
+	width: 100px;
+	height: 20px;
+	margin-left: 720px;
+	bottom: -20px;
+	padding:5px;
+	text-align:center;
+	background-image:url(../images/headphysics/more.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+}
+.less
+{
+	
+	background-image:url(../images/headphysics/less.png) !important;
+}
+#flip3
+{
+	max-width: 700px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -110px;
+	padding:5px;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display:block;
+	position: relative;
+}	
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+.idealphysics {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	z-index: 10;	
+}
+.idealphysics ul {
+	width: 100%;
+	height: 500px;
+	position:relative;
+	
+}
+.idealphysics ul li {
+	width: 100%;
+	height: 500px;
+	list-style:none;
+	position:relative;	
+
+}
+.idealphysics ul li > a.timeline {
+	width: 1024px;
+	height: 55%;
+	z-index: 10;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.logo {
+	width: 130px;
+	height: 130px;
+	margin-top: 200px;
+	margin-left: 10%;
+	z-index: 20;
+	position:absolute;
+	
+}
+.idealphysics ul li > .tell {
+	top: 55%;
+	right: 8.5%;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.worlding {
+	width: 420px;
+	height: 15%;
+	margin-top: 280px;
+	left: 300px;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics2
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	position: relative;	
+}
+#panel,#flip
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 690px;
+	top: -15px;
+	background-color:#ffffff;
+	position: relative;
+}
+#panel
+{
+	color:#000000;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display: none;
+}
+#flip2
+{
+	width: 80px;
+	height: 20px;
+	margin-left: 75%;
+	bottom: -20px;
+	padding:5px;
+	text-align:center;
+	background-image:url(../images/headphysics/more.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+}
+.less
+{
+	
+	background-image:url(../images/headphysics/less.png) !important;
+}
+#flip3
+{
+	max-width: 700px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -110px;
+	padding:5px;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display:block;
+	position: relative;
+}	
+
+}
+@media only screen and (min-width: 1280px) and (max-width: 1395px) {
+.idealphysics {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	z-index: 10;	
+}
+.idealphysics ul {
+	width: 100%;
+	height: 500px;
+	position:relative;
+	
+}
+.idealphysics ul li {
+	width: 100%;
+	height: 500px;
+	list-style:none;
+	position:relative;	
+
+}
+.idealphysics ul li > a.timeline {
+	width: 1024px;
+	height: 55%;
+	z-index: 10;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.logo {
+	width: 130px;
+	height: 130px;
+	margin-top: 200px;
+	margin-left: 10%;
+	z-index: 20;
+	position:absolute;
+	
+}
+.idealphysics ul li > .tell {
+	top: 55%;
+	right: 8.5%;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.worlding {
+	width: 420px;
+	height: 15%;
+	margin-top: 280px;
+	left: 300px;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics2
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	position: relative;	
+}
+#panel,#flip
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 690px;
+	top: -15px;
+	background-color:#ffffff;
+	position: relative;
+}
+#panel
+{
+	color:#000000;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display: none;
+}
+#flip2
+{
+	width: 80px;
+	height: 20px;
+	margin-left: 75%;
+	bottom: -20px;
+	padding:5px;
+	text-align:center;
+	background-image:url(../images/headphysics/more.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+}
+.less
+{
+	
+	background-image:url(../images/headphysics/less.png) !important;
+}
+#flip3
+{
+	max-width: 700px;
+	height: 115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -110px;
+	padding:5px;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display:block;
+	position: relative;
+}	
+}
+@media only screen and (min-width: 1396px) {
+.idealphysics {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	z-index: 10;	
+}
+.idealphysics ul {
+	width: 100%;
+	height: 500px;
+	position:relative;
+	
+}
+.idealphysics ul li {
+	width: 100%;
+	height: 500px;
+	list-style:none;
+	position:relative;	
+
+}
+.idealphysics ul li > a.timeline {
+	width: 1024px;
+	height: 55%;
+	z-index: 10;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.logo {
+	width: 130px;
+	height: 130px;
+	margin-top: 200px;
+	margin-left: 5%;
+	z-index: 20;
+	position:absolute;
+	
+}
+.idealphysics ul li > .tell {
+	top: 55%;
+	right: 8.3%;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics ul li > a.worlding {
+	width: 420px;
+	height: 15%;
+	margin-top: 280px;
+	left: 300px;
+	color:#000000;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	position:absolute;
+	
+}
+.idealphysics2
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5%;
+	position: relative;	
+}
+#panel,#flip
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 690px;
+	top: -15px;
+	background-color:#ffffff;
+	position: relative;
+}
+#panel
+{
+	color:#000000;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display: none;
+}
+#flip2
+{
+	width: 80px;
+	height: 20px;
+	margin-left: 67%;
+	bottom: -20px;
+	padding:5px;
+	text-align:center;
+	background-image:url(../images/headphysics/more.png);
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+}
+.less
+{
+	
+	background-image:url(../images/headphysics/less.png) !important;
+}
+#flip3
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	height: 115px;
+	margin-top: -110px;
+	padding:5px;
+	font-size:14px;
+	line-height: 24px;
+	text-decoration:none;
+	display:block;
+	position: relative;
+}
+
+}

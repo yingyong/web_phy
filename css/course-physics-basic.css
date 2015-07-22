@@ -1,0 +1,4447 @@
+.bghide {
+	background-color: #FFFFFF;
+}
+/* Some styles for the containers */
+.sliderbox {
+    position: relative;  /* Containers need relative or absolute position. */
+    margin-left: 20px;
+    bottom: 0px;  
+    width:270px;
+    height:85px;
+}
+.bookitem {
+    position: relative;  /* Containers need relative or absolute position. */
+    bottom: -10px;  
+    width:60px;
+    height:60px;
+}
+@media only screen and (max-width: 1024px) {
+.BP {
+	font-family: 'PSLxKittithada';
+	margin-left: 30px;
+	margin-top: 50px;
+    max-width: 1024px;
+    height: auto;
+	position:relative;
+	z-index: 10;
+}
+.BP ul {
+    width: 1024px;
+    height: auto;
+	position:relative;
+	
+}
+.BP ul p.basic{
+ 	width: 1350px;
+    height: 40px;
+	margin-top: 720px;
+	margin-left: -720px;
+	border-radius: 9px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 50%;
+	margin-top: 0px;
+	position:absolute;
+}
+.BP ul p1.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 1650px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p1.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p2.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 2050px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p2.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p3.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2420px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p3.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p4.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2700px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p4.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #CE6767;
+	position:relative;
+	
+}
+.BP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+}
+.BP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/BP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.BP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:24px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+	
+}
+.BP ul li.setI {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #EAE9E9;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li.setII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #F4D7CF;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color:#CE6767;
+	height: 100px;
+	width: 3%;
+	border-top: 1px solid #FFF;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 12px;
+	margin-top: 40px;
+	font-size:12px;
+	position:absolute;
+}
+.BP ul li > .bgcodebasic {
+	background-image:url(../images/Course/BP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 30px;
+	margin-top:-99px;
+	position: absolute;
+}
+.BP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.BP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.BP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.BP ul li > .bookbasic {
+	margin-left: 460px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+}
+.BP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+}
+.BP ul li > .btnbasic{
+	margin-left: 810px;
+	margin-top: -30px;
+	color:#FFF;
+	background-color:#F00;
+	background: -webkit-linear-gradient(#F30, #C00, #F00); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F30, #C00, #F00); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F30, #C00, #F00); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F30, #C00, #F00); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+}
+.BP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+}
+/*PHYSICS Entrance*/
+.EP {
+	font-family: 'ThaiSansNeueRG';
+	margin-left: 30px;
+	margin-top: 75px;
+    max-width: 1024px;
+    height: auto;
+	position:relative;
+}
+.EP ul {
+    width: 1024px;
+    height: auto;
+	position:relative;
+}
+.EP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #478CB2;
+	position:relative;
+}
+.EP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/EP_Head2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li.setIII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #D3DDE3;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EP ul li > .bgcodebasic {
+	background-image:url(../images/Course/EP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#003F63;
+	background: -webkit-linear-gradient(#0060AF, #003F63, #0060AF); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0060AF, #003F63, #0060AF); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0060AF, #003F63, #0060AF); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0060AF, #003F63, #0060AF); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Advance*/
+.AP {
+	font-family: 'ThaiSansNeueRG';
+	margin-left: 30px;
+	margin-top: 50px;
+     max-width: 1024px;
+    height: auto;
+	position:relative;
+}
+.AP ul {
+    width: 1024px;
+    height: auto;
+	position:relative;
+}
+.AP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #9D91CB;
+	position:relative;
+}
+.AP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.AP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/AP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.AP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.AP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.AP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.AP ul li > .bgnumberbasic >a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.AP ul li > .bgcodebasic {
+	background-image:url(../images/Course/AP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.AP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.AP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.AP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.AP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#5B0CA0;
+	background: -webkit-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Engineering*/
+.EG {
+	font-family: 'ThaiSansNeueRG';
+	margin-left: 30px;
+	margin-top: 50px;
+    max-width: 1024px;
+    height: auto;
+	position:relative;
+}
+.EG ul {
+    width: 1024px;
+    height: auto;
+	position:relative;
+}
+.EG ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #6FAD97;
+	position:relative;
+}
+.EG ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EG ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 31%;
+	background-image:url(../images/Course/EG_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EG ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 60px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EG ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.EG ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EG ul li > .bgnumberbasic >a.textnumberbasic3{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EG ul li > .bgcodebasic {
+	background-image:url(../images/Course/EG_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EG ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EG ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EG ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EG ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#095940;
+	background: -webkit-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0B7F6D, #095940, #0B7F6D); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Quota*/
+.QP {
+	font-family: 'ThaiSansNeueRG';
+	margin-left: 30px;
+	margin-top: 50px;
+    max-width: 1024px;
+    height: auto;
+	position:relative;
+}
+.QP ul {
+    width: 1024px;
+    height: auto;
+	position:relative;
+}
+.QP ul  > .bgbasic {
+	height: 50px;
+  	width: 100%;
+  	margin: 0 -2px 0px -30px;
+  	padding: 10px 0;
+  	background-color: #A38260;
+  	position: relative;
+}
+.QP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.QP ul  > .headbasic {
+	margin-top: -58px;
+  	margin-left: 300px;
+  	height: 100%;
+  	width: 30%;
+  	background-image: url(../images/Course/QP_Head2.png);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	position: absolute;
+	
+}
+.QP ul > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.QP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.QP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.QP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.QP ul li > .bgcodebasic {
+	background-image:url(../images/Course/QP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.QP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.QP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.QP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.QP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#772904;
+	background: -webkit-linear-gradient(#993E1A, #772904, #993E1A); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#993E1A, #772904, #993E1A); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#993E1A, #772904, #993E1A); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#993E1A, #772904, #993E1A); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+.BP {
+	font-family: 'PSLxKittithada';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+	z-index: 10;
+}
+.BP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+	
+}
+.BP ul p.basic{
+ 	width: 1350px;
+    height: 40px;
+	margin-top: 720px;
+	margin-left: -720px;
+	border-radius: 9px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 50%;
+	margin-top: 0px;
+	position:absolute;
+}
+.BP ul p1.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 1650px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p1.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p2.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 2050px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p2.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p3.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2420px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p3.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p4.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2700px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p4.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #CE6767;
+	position:relative;
+	
+}
+.BP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+}
+.BP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/BP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.BP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:24px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+	
+}
+.BP ul li.setI {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #EAE9E9;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li.setII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #F4D7CF;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color:#CE6767;
+	height: 100px;
+	width: 3%;
+	border-top: 1px solid #FFF;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 12px;
+	margin-top: 40px;
+	font-size:12px;
+	position:absolute;
+}
+.BP ul li > .bgcodebasic {
+	background-image:url(../images/Course/BP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 30px;
+	margin-top:-99px;
+	position: absolute;
+}
+.BP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.BP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.BP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.BP ul li > .bookbasic {
+	margin-left: 460px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+}
+.BP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+}
+.BP ul li > .btnbasic{
+	margin-left: 810px;
+	margin-top: -30px;
+	color:#FFF;
+	background-color:#F00;
+	background: -webkit-linear-gradient(#F30, #C00, #F00); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F30, #C00, #F00); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F30, #C00, #F00); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F30, #C00, #F00); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+}
+.BP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+}
+/*PHYSICS Entrance*/
+.EP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 75px;
+    height: auto;
+	position:relative;
+}
+.EP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.EP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #478CB2;
+	position:relative;
+}
+.EP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/EP_Head2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li.setIII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #D3DDE3;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EP ul li > .bgcodebasic {
+	background-image:url(../images/Course/EP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#003F63;
+	background: -webkit-linear-gradient(#0060AF, #003F63, #0060AF); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0060AF, #003F63, #0060AF); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0060AF, #003F63, #0060AF); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0060AF, #003F63, #0060AF); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Advance*/
+.AP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.AP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.AP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #9D91CB;
+	position:relative;
+}
+.AP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.AP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/AP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.AP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.AP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.AP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.AP ul li > .bgnumberbasic >a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.AP ul li > .bgcodebasic {
+	background-image:url(../images/Course/AP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.AP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.AP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.AP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.AP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#5B0CA0;
+	background: -webkit-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Engineering*/
+.EG {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.EG ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.EG ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #6FAD97;
+	position:relative;
+}
+.EG ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EG ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 31%;
+	background-image:url(../images/Course/EG_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EG ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 60px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EG ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.EG ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EG ul li > .bgnumberbasic >a.textnumberbasic3{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EG ul li > .bgcodebasic {
+	background-image:url(../images/Course/EG_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EG ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EG ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EG ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EG ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#095940;
+	background: -webkit-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0B7F6D, #095940, #0B7F6D); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Quota*/
+.QP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.QP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.QP ul  > .bgbasic {
+	height: 50px;
+  	width: 100%;
+  	margin: 0 -2px 0px -30px;
+  	padding: 10px 0;
+  	background-color: #A38260;
+  	position: relative;
+}
+.QP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.QP ul  > .headbasic {
+	margin-top: -58px;
+  	margin-left: 300px;
+  	height: 100%;
+  	width: 30%;
+  	background-image: url(../images/Course/QP_Head2.png);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	position: absolute;
+	
+}
+.QP ul > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.QP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.QP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.QP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.QP ul li > .bgcodebasic {
+	background-image:url(../images/Course/QP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.QP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.QP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.QP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.QP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#772904;
+	background: -webkit-linear-gradient(#993E1A, #772904, #993E1A); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#993E1A, #772904, #993E1A); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#993E1A, #772904, #993E1A); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#993E1A, #772904, #993E1A); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+}
+@media only screen and (min-width: 1281px) and (max-width: 1395px) {
+.BP {
+	font-family: 'PSLxKittithada';
+	margin-top: 50px;
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+	position:relative;
+	z-index: 10;
+}
+.BP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+	
+}
+.BP ul p.basic{
+ 	width: 1350px;
+    height: 40px;
+	margin-top: 720px;
+	margin-left: -720px;
+	border-radius: 9px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 50%;
+	margin-top: 0px;
+	position:absolute;
+}
+.BP ul p1.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 1650px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p1.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p2.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 2050px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p2.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p3.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2420px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p3.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p4.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2700px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p4.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #CE6767;
+	position:relative;
+	
+}
+.BP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+}
+.BP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/BP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.BP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:24px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+	
+}
+.BP ul li.setI {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #EAE9E9;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li.setII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #F4D7CF;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color:#CE6767;
+	height: 100px;
+	width: 3%;
+	border-top: 1px solid #FFF;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 12px;
+	margin-top: 40px;
+	font-size:12px;
+	position:absolute;
+}
+.BP ul li > .bgcodebasic {
+	background-image:url(../images/Course/BP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 30px;
+	margin-top:-99px;
+	position: absolute;
+}
+.BP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.BP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.BP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.BP ul li > .bookbasic {
+	margin-left: 460px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+}
+.BP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+}
+.BP ul li > .btnbasic{
+	margin-left: 810px;
+	margin-top: -30px;
+	color:#FFF;
+	background-color:#F00;
+	background: -webkit-linear-gradient(#F30, #C00, #F00); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F30, #C00, #F00); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F30, #C00, #F00); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F30, #C00, #F00); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+}
+.BP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+}
+/*PHYSICS Entrance*/
+.EP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 75px;
+    height: auto;
+	position:relative;
+}
+.EP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.EP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #478CB2;
+	position:relative;
+}
+.EP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/EP_Head2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li.setIII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #D3DDE3;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EP ul li > .bgcodebasic {
+	background-image:url(../images/Course/EP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#003F63;
+	background: -webkit-linear-gradient(#0060AF, #003F63, #0060AF); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0060AF, #003F63, #0060AF); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0060AF, #003F63, #0060AF); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0060AF, #003F63, #0060AF); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Advance*/
+.AP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.AP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.AP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #9D91CB;
+	position:relative;
+}
+.AP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.AP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/AP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.AP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.AP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.AP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.AP ul li > .bgnumberbasic >a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.AP ul li > .bgcodebasic {
+	background-image:url(../images/Course/AP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.AP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.AP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.AP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.AP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#5B0CA0;
+	background: -webkit-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Engineering*/
+.EG {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.EG ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.EG ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #6FAD97;
+	position:relative;
+}
+.EG ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EG ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 31%;
+	background-image:url(../images/Course/EG_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EG ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 60px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EG ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.EG ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EG ul li > .bgnumberbasic >a.textnumberbasic3{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EG ul li > .bgcodebasic {
+	background-image:url(../images/Course/EG_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EG ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EG ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EG ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EG ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#095940;
+	background: -webkit-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0B7F6D, #095940, #0B7F6D); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Quota*/
+.QP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+}
+.QP ul {
+    width: 985px;
+    height: auto;
+	position:relative;
+}
+.QP ul  > .bgbasic {
+	height: 50px;
+  	width: 100%;
+  	margin: 0 -2px 0px -30px;
+  	padding: 10px 0;
+  	background-color: #A38260;
+  	position: relative;
+}
+.QP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.QP ul  > .headbasic {
+	margin-top: -58px;
+  	margin-left: 300px;
+  	height: 100%;
+  	width: 30%;
+  	background-image: url(../images/Course/QP_Head2.png);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	position: absolute;
+	
+}
+.QP ul > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.QP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.QP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.QP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.QP ul li > .bgcodebasic {
+	background-image:url(../images/Course/QP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.QP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.QP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.QP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.QP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	color:#FFF;
+	background-color:#772904;
+	background: -webkit-linear-gradient(#993E1A, #772904, #993E1A); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#993E1A, #772904, #993E1A); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#993E1A, #772904, #993E1A); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#993E1A, #772904, #993E1A); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: 50px;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+}
+@media only screen and (min-width: 1396px) {
+.BP {
+	font-family: 'PSLxKittithada';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    height: auto;
+	position:relative;
+	z-index: 10;
+}
+.BP ul {
+    width: 980px;
+    height: auto;
+	position:relative;
+	
+}
+.BP ul p.basic{
+ 	width: 1350px;
+    height: 40px;
+	margin-top: 720px;
+	margin-left: -720px;
+	border-radius: 9px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 50%;
+	margin-top: 0px;
+	position:absolute;
+}
+.BP ul p1.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 1650px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p1.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p2.basic{
+ 	width: 300px;
+    height: 40px;
+	margin-top: 2050px;
+	margin-left: -195px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p2.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 45%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p3.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2420px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p3.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul p4.basic{
+ 	width: 250px;
+    height: 40px;
+	margin-top: 2700px;
+	margin-left: -170px;
+	border-radius: 7px;
+	position:absolute;
+    background-color: #000;
+    /* Rotate div */
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.BP ul p4.basic > a.basic{
+	color:#FFFFFF;
+	text-align:center;
+	margin-left: 40%;
+	margin-top: 1%;
+	position:absolute;
+}
+.BP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #CE6767;
+	position:relative;
+	
+}
+.BP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+}
+.BP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/BP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.BP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:24px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+	
+}
+.BP ul li.setI {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #EAE9E9;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li.setII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #F4D7CF;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color:#CE6767;
+	height: 100px;
+	width: 3%;
+	border-top: 1px solid #FFF;
+	position:relative;
+}
+.BP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 12px;
+	margin-top: 40px;
+	font-size:12px;
+	position:absolute;
+}
+.BP ul li > .bgcodebasic {
+	background-image:url(../images/Course/BP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 30px;
+	margin-top:-99px;
+	position: absolute;
+}
+.BP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.BP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.BP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+	
+}
+.BP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.BP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.BP ul li > .bookbasic {
+	margin-left: 460px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+}
+.BP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+}
+.BP ul li > .btnbasic{
+	margin-left: 810px;
+	margin-top: -30px;
+	color:#FFF;
+	text-align:center;
+	background-color:#F00;
+	background: -webkit-linear-gradient(#F30, #C00, #F00); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F30, #C00, #F00); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F30, #C00, #F00); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F30, #C00, #F00); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+}
+.BP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: -50%;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+}
+/*PHYSICS Entrance*/
+.EP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    width: 1000px;
+    height: auto;
+	position:relative;
+}
+.EP ul {
+    width: 980px;
+    height: auto;
+	position:relative;
+}
+.EP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #478CB2;
+	position:relative;
+}
+.EP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/EP_Head2.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li.setIII {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-color: #D3DDE3;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EP ul li > .bgcodebasic {
+	background-image:url(../images/Course/EP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+	background-color:#003F63;
+	background: -webkit-linear-gradient(#0060AF, #003F63, #0060AF); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0060AF, #003F63, #0060AF); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0060AF, #003F63, #0060AF); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0060AF, #003F63, #0060AF); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: -50%;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Advance*/
+.AP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    width: 1000px;
+    height: auto;
+	position:relative;
+}
+.AP ul {
+    width: 980px;
+    height: auto;
+	position:relative;
+}
+.AP ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #9D91CB;
+	position:relative;
+}
+.AP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.AP ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 30%;
+	background-image:url(../images/Course/AP_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.AP ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 70px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.AP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.AP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.AP ul li > .bgnumberbasic >a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.AP ul li > .bgcodebasic {
+	background-image:url(../images/Course/AP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.AP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.AP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.AP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.AP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.AP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.AP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+	background-color:#5B0CA0;
+	background: -webkit-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#7D3BA1, #5B0CA0, #7D3BA1); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.AP ul li > .btnbasic >a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: -50%;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Engineering*/
+.EG {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    width: 1000px;
+    height: auto;
+	position:relative;
+}
+.EG ul {
+    width: 980px;
+    height: auto;
+	position:relative;
+}
+.EG ul  > .bgbasic {
+	height: 50px;
+	width: 100%;
+    margin: 0 -2px 0px -30px;
+    padding: 10px 0; 
+    background-color: #6FAD97;
+	position:relative;
+}
+.EG ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.EG ul  > .headbasic {
+	margin-top: -58px;
+	margin-left:300px;
+	height: 100%;
+	width: 31%;
+	background-image:url(../images/Course/EG_Head.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:absolute;
+	
+}
+.EG ul  > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 60px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.EG ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.EG ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.EG ul li > .bgnumberbasic >a.textnumberbasic3{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.EG ul li > .bgcodebasic {
+	background-image:url(../images/Course/EG_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.EG ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.EG ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.EG ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.EG ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.EG ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.EG ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+	background-color:#095940;
+	background: -webkit-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0B7F6D, #095940, #0B7F6D); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0B7F6D, #095940, #0B7F6D); /* Standard syntax */
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.EG ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: -50%;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+/*PHYSICS Quota*/
+.QP {
+	font-family: 'ThaiSansNeueRG';
+	max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    width: 1000px;
+    height: auto;
+	position:relative;
+}
+.QP ul {
+    width: 980px;
+    height: auto;
+	position:relative;
+}
+.QP ul  > .bgbasic {
+	height: 50px;
+  	width: 100%;
+  	margin: 0 -2px 0px -30px;
+  	padding: 10px 0;
+  	background-color: #A38260;
+  	position: relative;
+}
+.QP ul  > .bgbasic > a.textbgbasic {
+	font-family: 'ThaiSansNeueRG';
+	font-size:12px;
+	color:#FFFFFF;
+	margin-left: 5px;
+	margin-top: 20px;
+	position:absolute;
+	
+	
+}
+.QP ul  > .headbasic {
+	margin-top: -58px;
+  	margin-left: 300px;
+  	height: 100%;
+  	width: 30%;
+  	background-image: url(../images/Course/QP_Head2.png);
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+  	position: absolute;
+	
+}
+.QP ul > .headbasic > a.textheadbasic {
+	margin-top: 10px;
+	margin-left: 80px;
+	color:#FFFFFF;
+	font-size:22px;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li.set {
+	padding: 0px;
+	margin-left: -30px;
+	width: 100%;
+	height: auto;
+	background-image:url(../images/Course/BG.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position: relative;
+}
+.QP ul li.setII {
+	width: 930px;
+	height: auto;
+	border-bottom: 1px solid #999;
+	list-style-type: none;
+	position:relative;
+	background-color:#FC6;
+}
+.QP ul li > .bgnumberbasic {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 100px;
+	width: 3%;
+	position:relative;
+}
+.QP ul li > .bgnumberbasic > a.textnumberbasic{
+	color:#FFF;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size:12px;
+	position:absolute;
+	
+}
+.QP ul li > .bgcodebasic {
+	background-image:url(../images/Course/QP_Code.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+	width:12%;
+	height:100%;
+	margin-left: 0px;
+	margin-top:-99px;
+	position: absolute;
+}
+.QP ul li > .bgcodebasic > a.textcodebasic {
+	margin-left: 15px;
+	margin-top: 5px;
+	color:#FFF;
+	font-size:15px;
+	width: 5em;
+	text-decoration: none !important;
+	position:absolute;
+}
+.QP ul li > .subjectbasic {
+	color:#000;
+	font-size:12px;
+	font-weight: bold;
+	margin-left: 145px;
+	margin-top: -90px;
+	width: 25em;
+	position: absolute;
+}
+.QP ul li > .timebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .timeexpirebasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 60px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .claimbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -60px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .cancelbasic {
+	color:#000;
+	font-size:11px;
+	margin-left: 250px;
+	margin-top: -40px;
+	width: 15em;
+	position: absolute;
+}
+.QP ul li > .linebasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	position: absolute;
+}
+.QP ul li > .bookbasic {
+	margin-left: 450px;
+	margin-top: -90px;
+	width: 250px;
+    height: 80px;
+	position: absolute;
+	
+}
+.QP ul li > .pricebasic {
+	font-size:19px;
+	color:#FF0000;
+	margin-left: 810px;
+	margin-top: -60px;
+	width: 9em; 
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic {
+	margin-left: 810px;
+	margin-top: -30px;
+	font-size:9px;
+	text-align:center;
+	color:#FFF;
+	background-color:#772904;
+	background: -webkit-linear-gradient(#993E1A, #772904, #993E1A); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#993E1A, #772904, #993E1A); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#993E1A, #772904, #993E1A); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#993E1A, #772904, #993E1A); /* Standard syntax */
+	border-radius: 5px;
+	border-radius: 5px;
+	width: 15%;
+	height:25%;
+	position:absolute;
+	
+}
+.QP ul li > .btnbasic > a.basic{
+	font-family: 'PSLxKittithada';
+	margin-top: -1px;
+	margin-left: -50%;
+	font-size:18px;
+	color:#FFF;
+	float:left;
+	width: 100%;
+	text-decoration: none;
+	position:absolute;
+	
+}
+}

@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 16, 2015, 5:08:14 PM
+    Author     : user
+*/
+
+.club-news{
+    max-width:1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px; 
+}
+.club-news img{
+    width:100%;
+}
+.box_centerII {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  /*border: solid #000;
+  border-top-style: 3px;
+  border-left-style: 3px;
+  border-bottom-style: 3px;
+  border-bottom-style: 3px;*/
+}
+.club-header{
+    width:100%;
+    padding-top: 20px; 
+    display:inline-block
+}
+.club-headerII{
+    width:100%;
+    padding-top: 96px; 
+    display:inline-block
+}
+.club-header-for{width:100%; margin-top:80px; display:inline-block}
+.club-tab{background:#FF6600;width:100px; height:50px; float:left;}
+
+.club-headname{
+    border-bottom: 1px solid #f60;
+    color:#f60; 
+    font-size:40px;  
+    font-weight:bold; 
+    //margin-bottom: 50px;
+    padding:15px 0px 10px 120px; 
+    margin-bottom:20px;
+    
+}
+.formulas, .diagram{
+   list-style-image:none;
+    margin:auto;
+    margin-left:auto;
+    display: table; 
+    table-layout: fixed;
+}
+
+@media only screen and (max-width: 639px) {
+    .formulas, .diagram{
+        width:350px;
+        padding-top:100px;
+    }
+
+    
+    .formaulas{padding-top:150px}
+    .line_2 , .line_3{display:none;}
+    .line_1{display:table-column;}
+    .last_line_3{border-bottom:0px !important;}
+}
+@media only screen and (min-width: 640px) and (max-width:959px) {
+    .formulas,  .diagram{
+        width:600px;
+        padding-top:80px;
+    }
+    .line_3{display:none;}
+    .line_1, .line_2{display:table-column;}
+    .last_line_2, .last_line_3{border-bottom:0px !important;}
+}
+@media only screen and (min-width:960px) {
+        .formulas ,.diagram{
+        width:900px;
+        padding-top:40px;
+    }
+    .line_1, .line_2, .line_3{display:table-column;}
+    .last_line_1, .last_line_2, .last_line_3{border-bottom:0px !important;}
+}
+
+
+.formulas_list,.diagram_list{
+    float:left;
+    border-bottom-width:1px; 
+    border-bottom-style: dotted;
+    border-bottom-color: #616261;
+    border-right-width:1px; 
+    border-right-style: dotted;
+    border-right-color: #616261;
+    padding:5px 15px;
+    width:300px;
+    display:table-column;
+}
+
+.formulas_line{
+   float:left;
+   height:1px;
+    border-bottom:#F18D1E solid 1px;
+    width:280px;
+    margin-bottom:10px;
+    margin:10px;
+    
+}
+
+.diagram_line{
+   float:left;
+   height:1px;
+    border-bottom:#0071B6 solid 1px;
+    width:280px;
+    margin-bottom:10px;
+    margin:10px;
+    
+}
+
+.formulas_list a{
+    color:black !important;
+    text-decoration: none;
+    font-size:16px;
+}
+.diagram_list a{
+    color:black !important;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.formulas_list a:hover{
+    text-decoration: none;
+    color:#F18D1E !important;
+    cursor: pointer;
+}
+
+.formulas_detail_name{
+    float:left;
+    font-size:32px;
+    font-family: Arial;
+    color:#F18D1E;
+    font-weight:700;
+    padding-left:50px;
+    margin:30px;
+    
+}
+
+.formulas_detail, .diagram_detail{
+    margin:100px; background:white;
+}
+
+.formulas_detail_f, .diagram_detail_f{
+  margin: auto;
+  background: white;
+  width: 80%;
+}
+
+
+
+
+
+.diagram_list a:hover{
+    text-decoration: none;
+    color:#0071B6 !important;
+    cursor: pointer;
+}
+
+.diagram_detail_name{
+    float:left;
+    font-size:32px;
+    font-family: Arial;
+    color:#0071B6;
+    font-weight:700;
+    padding-left:50px;
+    margin:30px;
+    
+}
+.default_symbol{
+    float:right;
+}
+
+
+
+.fix_header{
+   background:white;
+   	position: fixed; 
+	z-index: 999;
+	width: 100%;
+        height:65px;
+        top:107px;
+}
+
+.fix_answer_tab{
+     background:white;
+     //height:75px;
+   	position: fixed; 
+    	top: 170px;
+	z-index: 999;
+	width: 100%;
+    
+}/*
+@media only screen and (min-width: 1024px) {
+    .fix_header{
+        top: 107px;
+    }
+    
+}*/
+
+@media only screen and (max-width:768px){
+    .fix_header{
+       padding-top:10px
+    }
+   .club-header{padding-top:120px;}
+}
+
+
+
+.bghide{
+    background:white;
+}

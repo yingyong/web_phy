@@ -1,0 +1,599 @@
+.Event {
+		width: 100%;
+		height: 300px;
+		background-image:url(../images/Event/BG.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	    position: relative;
+	}
+	.Event > ul {
+	    width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li {
+		width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li > h1 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.event1{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 37.5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.event2{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 70%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.event3{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.Event {
+		width: 100%;
+		height: 300px;
+		background-image:url(../images/Event/BG.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	    position: relative;
+	}
+	.Event > ul {
+	    width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li {
+		width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li > h1 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.event1{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 37.5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.event2{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 {
+		width: 200px;
+		height: 240px;
+		margin-top: 20px;
+		margin-left: 70%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.event3{
+		margin-top: 60px;
+		margin-left: 10px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.video{
+		bottom :15px;
+		margin-left: 135px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	.Event {
+		width: 100%;
+		height: 300px;
+		background-image:url(../images/Event/BG.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	    position: relative;
+	}
+	.Event > ul {
+	    width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li {
+		width:100%;
+		height:100%;
+		list-style-type: none;
+		position:relative;
+	}
+
+	.Event > ul li > h1 {
+		width: 300px;
+		height: 250px;
+		margin-top: 20px;
+		margin-left: 5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.event1{
+		margin-top: 60px;
+		margin-left: 60px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h1 a.video{
+		bottom :15px;
+		margin-left: 230px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 {
+		width: 300px;
+		height: 250px;
+		margin-top: 20px;
+		margin-left: 37.5%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.event2{
+		margin-top: 60px;
+		margin-left: 60px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h2 a.video{
+		bottom :15px;
+		margin-left: 230px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 {
+		width: 300px;
+		height: 250px;
+		margin-top: 20px;
+		margin-left: 70%;
+		background:url(../images/Event/EventBox.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.event3{
+		margin-top: 60px;
+		margin-left: 60px;
+		width: 200px;
+		text-decoration:none;
+		font-size:18px;
+		font-family: 'PSLxKittithada';
+		color:#000000;
+		position:absolute;
+	}
+	.Event > ul li > h3 a.video{
+		bottom :15px;
+		margin-left: 230px;
+		width: 50px;
+		height: 50px;
+		background:url(../images/Event/play_icon.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position:center;
+		position:absolute;
+	}
+}
+@media only screen and (min-width: 1280px) and (max-width: 1395px) {
+	.Event {
+	width: 100%;
+	height: 300px;
+	background-image:url(../images/Event/BG.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    position: relative;
+}
+.Event > ul {
+    width:100%;
+	height:100%;
+	list-style-type: none;
+	position:relative;
+}
+
+.Event > ul li {
+	width:100%;
+	height:100%;
+	list-style-type: none;
+	position:relative;
+}
+
+.Event > ul li > h1 {
+	width: 25%;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 5%;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h1 a.event1{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h1 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h2 {
+	width: 25%;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 37.5%;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h2 a.event2{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h2 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h3 {
+	width: 25%;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 70%;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h3 a.event3{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h3 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+}
+@media only screen and (min-width: 1396px) {
+.Event {
+	width: 100%;
+	height: 300px;
+	background-image:url(../images/Event/BG.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    position: relative;
+}
+.Event > ul {
+    width:100%;
+	height:100%;
+	float: left;
+	list-style-type: none;
+	position:relative;
+}
+
+.Event > ul li {
+	width:100%;
+	height:100%;
+	list-style-type: none;
+	position: absolute;
+}
+
+.Event > ul li > h1 {
+	width: 350px;
+	height: 250px;
+	margin-top: 20px;
+	left: 0px;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h1 a.event1{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h1 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h2 {
+	width: 350px;
+	height: 250px;
+	margin-top: 20px;
+	left: 0px;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h2 a.event2{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h2 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h3 {
+	width: 350px;
+	height: 250px;
+	margin-top: 20px;
+	right: 5%;
+	background:url(../images/Event/EventBox.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+.Event > ul li > h3 a.event3{
+	margin-top: 60px;
+	margin-left: 80px;
+	width: 200px;
+	text-decoration:none;
+	font-size:18px;
+	font-family: 'PSLxKittithada';
+	color:#000000;
+	position:absolute;
+}
+.Event > ul li > h3 a.video{
+	bottom :15px;
+	margin-left: 250px;
+	width: 50px;
+	height: 50px;
+	background:url(../images/Event/play_icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	position:absolute;
+}
+	}

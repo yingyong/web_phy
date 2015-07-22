@@ -1,0 +1,677 @@
+.formulas {
+	width: 100%;
+	height: 500px;
+	padding-top: 50px;
+	margin-bottom: -200px;
+	
+}
+.head {
+	width: 30%;
+	height: 60px;
+	float: left;
+	background-color: #FF6600;
+	border: solid #000000;
+	border-right-width: 0px;
+  	border-left-width: 0px;
+  	border-top-width: 0px;
+  	border-bottom-width: 0px;
+	position: relative;
+}
+.head2 {
+	width: 15%;
+	height: 60px;
+	float: left;
+	margin-left: 25px;
+	background-color: #FF6600;
+	border: solid #000000;
+	border-right-width: 0px;
+  	border-left-width: 0px;
+  	border-top-width: 0px;
+  	border-bottom-width: 0px;
+	position: relative;
+}
+.text_mechanics {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/club/MechanicsHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.text_wave {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/club/WaveHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.text_properties {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/club/MatterHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.text_electricity {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/club/ElectricityHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.text_atomic {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/club/AtomicHeader.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.head > .measurement {
+	width: 52%;
+	height: 50px;
+	margin-top: 65px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .momentum {
+	width: 50%;
+	height: 50px;
+	margin-top: 65px;
+	margin-left: 155px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .linearmotion {
+	width: 52%;
+	height: 50px;
+	margin-top: 115px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .projectile {
+	width: 50%;
+	height: 50px;
+	margin-top: 115px;
+	margin-left: 155px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .force {
+	width: 52%;
+	height: 50px;
+	margin-top: 165px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .circular {
+	width: 50%;
+	height: 50px;
+	margin-top: 165px;
+	margin-left: 155px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .equilibrium {
+	width: 52%;
+	height: 50px;
+	margin-top: 215px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .simple {
+	width: 50%;
+	height: 50px;
+	margin-top: 215px;
+	margin-left: 155px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head > .work {
+	width: 52%;
+	height: 50px;
+	margin-top: 265px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head > .rotation {
+	width: 50%;
+	height: 50px;
+	margin-top: 265px;
+	margin-left: 155px;
+	font-size: 13px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head > .measurement > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .momentum > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .linearmotion > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .projectile > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .force > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .circular > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .equilibrium > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .simple > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .work > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head > .rotation > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .wave {
+	width: 100%;
+	height: 50px;
+	margin-top: 65px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .sound {
+	width: 100%;
+	height: 50px;
+	margin-top: 115px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .light {
+	width: 100%;
+	height: 50px;
+	margin-top: 165px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head2 > .wave > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .sound > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .light > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .heat {
+	width: 100%;
+	height: 50px;
+	margin-top: 65px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .gas {
+	width: 100%;
+	height: 50px;
+	margin-top: 115px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .liquid {
+	width: 100%;
+	height: 50px;
+	margin-top: 165px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .solid {
+	width: 100%;
+	height: 50px;
+	margin-top: 215px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head2 > .heat > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .gas > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .liquid > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .solid > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .electrotatic {
+	width: 100%;
+	height: 50px;
+	margin-top: 65px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .direct {
+	width: 100%;
+	height: 50px;
+	margin-top: 115px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .alternating {
+	width: 100%;
+	height: 50px;
+	margin-top: 165px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .electromagnetic {
+	width: 100%;
+	height: 50px;
+	margin-top: 215px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head2 > .electrotatic > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .direct > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .alternating > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .electromagnetic > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .atom {
+	width: 100%;
+	height: 50px;
+	margin-top: 65px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid #CCCCCC;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 1px;
+  	border-bottom-width: 1px;
+	position: absolute;
+}
+.head2 > .nuclear {
+	width: 100%;
+	height: 50px;
+	margin-top: 115px;
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: solid;
+	border-left-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #FF6600;
+	border-right-width: 1px;
+  	border-left-width: 1px;
+  	border-top-width: 0px;
+  	border-bottom-width: 5px;
+	position: absolute;
+}
+.head2 > .atom > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+.head2 > .nuclear > a {
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF; 
+	text-decoration: none;
+	color: #000000;
+	position: absolute;
+}
+@media only screen and (min-width: 1396px) {
+	.formulas {
+	width: 100%;
+	height: 500px;
+	padding-top: 50px;
+	}
+}
